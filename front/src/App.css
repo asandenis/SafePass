@@ -1,0 +1,91 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #282c34;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #23212c;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#text1 {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-size: 75px;
+}
+
+#text2 {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-size: 50px;
+}
+
+#text3 {
+  margin-top: 20px;
+  margin-bottom: 0%;
+  font-size: 15px;
+}
+
+#length {
+  width: 75px;
+  font-size: 20px;
+  margin-top: 200px;
+  color: #282c34;
+}
+
+#submit {
+  width: auto;
+  font-size: 20px;
+  margin-top: 0%;
+  color: #282c34;
+  background-color: white;
+  transition-duration: 0.3s;
+}
+
+#submit:hover {
+  background-color: #23212c;
+  color: white;
+}
+
+#output {
+  font-size: 40px;
+}
+
+#copy {
+  width: auto;
+  font-size: 20px;
+  margin-top: 0%;
+  color: #282c34;
+  background-color: white;
+  transition-duration: 0.3s;
+}
+
+#copy:hover {
+  background-color: #23212c;
+  color: white;
+}
